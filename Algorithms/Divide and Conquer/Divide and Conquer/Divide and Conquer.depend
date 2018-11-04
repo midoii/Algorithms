@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1540177054 source:f:\study\c++\algorithms\divide and conquer\divide and conquer\main.cpp
+	<iostream>
+	"subarray.h"
+
+1540175393 f:\study\c++\algorithms\divide and conquer\divide and conquer\subarray.h
+
