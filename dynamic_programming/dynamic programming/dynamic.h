@@ -40,4 +40,41 @@ int cut_rod(int p[], int n)
 	return q;
 }
 
+int matrix_chain_order(int* p,int** m,int** s,int n)
+{
+	for (int l = 2; l < n + 1; l++)
+	{
+		for (int i = 0; i < n - l + 1; i++)
+		{
+			int j = i + l - 1;
+			m[i][j] = 500000;
+			for (int k = i; k < j; k++)
+			{
+				int q = m[i][k] + m[k + 1][j] + p[i] * p[k+1] * p[j+1];
+				if (q < m[i][j])
+				{
+					m[i][j] = q;
+					s[i][j] = k+1;
+				}
+			}
+		}
+	}
+	return 0;
+}
+
+int print_optimal_parens(int** s, int i, int j)
+{
+	if (i == j)
+	{
+		std::cout << "A" << i;
+	}
+	else
+	{
+		std::cout << "(";
+		print_optimal_parens(s, i, s[i-1][j-1]);
+		print_optimal_parens(s, s[i-1][j-1] + 1, j);
+		std::cout << ")";
+	}
+	return 0;
+}
 #endif
