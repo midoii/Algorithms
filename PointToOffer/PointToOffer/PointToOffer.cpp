@@ -5,6 +5,7 @@
 #include <string>
 #include "Topic3_2.h"
 #include "Topic5_1.h"
+#include "Topic6.h"
 
 using std::string;
 using std::cout;
@@ -12,14 +13,16 @@ using std::cin;
 using std::endl;
 
 
+
 int main()
 {
-	int a1[10] = { 1,3,5,7,9 };
-	int a2[5] = { 2,4,6,8,10 };
-	mergeArray(a1, a2, 10, 5, 5);
-	for (int i = 0; i < 10; i++) {
-		cout << a1[i];
-	}
+	ListNode* pHead = nullptr;
+	AddToTail(&pHead, 1);
+	AddToTail(&pHead, 2);
+	AddToTail(&pHead, 3);
+	AddToTail(&pHead, 4);
+	AddToTail(&pHead, 5);
+	PrintReversingly_Recursively(pHead);
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

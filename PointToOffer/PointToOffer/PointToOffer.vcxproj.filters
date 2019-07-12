@@ -27,6 +27,18 @@
     <ClCompile Include="Topic5_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Topic6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Topic3_2.h">
@@ -36,6 +48,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Topic5_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Topic6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Topic7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Topic8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Topic9.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
