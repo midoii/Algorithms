@@ -152,6 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="PointToOffer.cpp" />
+    <ClCompile Include="Topic11.cpp" />
+    <ClCompile Include="Topic12.cpp" />
+    <ClCompile Include="Topic13.cpp" />
+    <ClCompile Include="Topic14.cpp" />
     <ClCompile Include="Topic3_2.cpp" />
     <ClCompile Include="Topic4.cpp" />
     <ClCompile Include="Topic5_1.cpp" />
@@ -161,6 +165,10 @@
     <ClCompile Include="Topic9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Topic11.h" />
+    <ClInclude Include="Topic12.h" />
+    <ClInclude Include="Topic13.h" />
+    <ClInclude Include="Topic14.h" />
     <ClInclude Include="Topic3_2.h" />
     <ClInclude Include="Topic4.h" />
     <ClInclude Include="Topic5_1.h" />
